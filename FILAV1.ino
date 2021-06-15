@@ -193,7 +193,7 @@ void loop() {
   }
   lastStateCLK = currentStateCLK;
 }
-
+//teste
 void RecCount(int Ftype, int count){
   if (Ftype == 1) {
     myFile1 = SD.open("F1.txt", O_WRITE);
